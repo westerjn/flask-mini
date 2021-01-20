@@ -16,10 +16,7 @@ import json
 
 #cur = conn.cursor()
 
-db = 'jedimaster'
-user = 'pgmaster'
-password = 'sandeimos123'
-host = 'jedimaster.cpjt5qwricvv.us-east-1.rds.amazonaws.com'
+
 port = 5432
 
 app = Flask(__name__)
