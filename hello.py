@@ -40,7 +40,7 @@ def meow():
 
     # get a connection, if a connect cannot be made an exception will be raised here
     # conn = psycopg2.connect(conn_string)
-    conn = psycopg2.connect("dbname='ykkrfsmz' user='ykkrfsmz' host='suleiman.db.elephantsql.com' password='3q9KA8PBaS1rjrkeRYyCy9ip_VWxZxNo'")
+    conn = psycopg2.connect("dbname='' user='' host='suleiman.db.elephantsql.com' password=''")
 
     # conn.cursor will return a cursor object, you can use this cursor to perform queries
     cur = conn.cursor()
